@@ -1,0 +1,13 @@
+.intro-container {
+  margin: 30px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &-title {
+    font-size: 30px;
+    font-weight: 700;
+  }
+  &-drop {
+    padding-right: 32px;
+  }
+}

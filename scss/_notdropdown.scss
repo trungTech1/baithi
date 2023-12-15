@@ -1,0 +1,12 @@
+.notdropdown-link {
+  text-decoration: none;
+  color: black;
+  &:hover {
+    color: blue;
+    text-decoration: underline;
+  }
+}
+.btn-group:hover {
+  color: blue;
+  text-decoration: underline;
+}

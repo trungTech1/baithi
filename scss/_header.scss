@@ -1,0 +1,25 @@
+.header-container {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.555);
+}
+.header-container:nth-child(1) {
+  padding-left: 15px;
+}
+.header-container:last-child {
+  padding-right: 15px;
+}
+.head-callnumber {
+  font-weight: 700;
+}
+.head-text {
+  color: rgba(128, 128, 128, 0.555);
+  align-items: center;
+}
+.head-icon {
+  color: rgba(128, 128, 128, 0.555);
+  display: flex;
+  gap: 12px;
+}
