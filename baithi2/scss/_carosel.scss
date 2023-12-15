@@ -1,0 +1,52 @@
+.carousel-item {
+  position: relative;
+}
+
+.carosel-info-head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.carosel-infor-head-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.head-link {
+  list-style: none;
+
+  padding: 0px 20px;
+}
+.head-link-item {
+  text-decoration: none;
+  color: rgb(245, 245, 245);
+}
+.head-icon {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.head-button {
+  text-decoration: none;
+  padding: 10px 30px;
+  background-color: #ffff0087;
+  color: white;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+}
+.carosel-info-center {
+  position: absolute;
+  top: 35%;
+  width: 312px;
+  left: 12%;
+}
+.carosel-info-center-button {
+  text-decoration: none;
+  border-radius: 30px;
+  padding: 15px 38px;
+  background-color: yellow;
+}
+.head-title {
+  color: white;
+}
